@@ -1,24 +1,76 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="he">
 <head>
   <meta charset="UTF-8">
-  <title>ברוך הבא</title>
-  <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+  <title>השוואה בין מבוגרים לילדים בנושא FI ואלרגיות</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
       direction: rtl;
-      text-align: right;
-      font-family: 'Heebo', sans-serif;
-      padding: 2rem;
-      background: #f9f9f9;
+      background-color: #f9f9f9;
+      padding: 30px;
     }
-    h1 {
-      color: #004c99;
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: auto;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #cccccc;
+      text-align: center;
+      padding: 12px;
+    }
+
+    th {
+      background-color: #004080;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>ברוך הבא לאתר שלי!</h1>
-  <p>זהו דף HTML שמתארח על GitHub Pages ותומך בעברית מלאה 🎉</p>
+
+<table>
+  <caption>השוואה בין מבוגרים לילדים בנושא FI ואלרגיות למזון</caption>
+  <thead>
+    <tr>
+      <th>נושא</th>
+      <th>מבוגרים</th>
+      <th>ילדים</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>השפעת תזונת FODMAP על FI</td>
+      <td>נחקרה ונמצאה מועילה</td>
+      <td>לא נחקרה מספיק</td>
+    </tr>
+    <tr>
+      <td>קשר בין אלרגיות למזון ל־NFI</td>
+      <td>קיימים דיווחים</td>
+      <td>אין כמעט מחקרים</td>
+    </tr>
+    <tr>
+      <td>המלצות קליניות</td>
+      <td>לשלול גורם תזונתי לפני הגדרה "תפקודית"</td>
+      <td>זהירות מאבחנה פסיכולוגית מוקדמת מדי</td>
+    </tr>
+  </tbody>
+</table>
+
 </body>
 </html>
